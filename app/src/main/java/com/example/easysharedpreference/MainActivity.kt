@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             val name = binding.nameEdt.text.toString()
             if (name.isNotEmpty()) {
                 MyPreference.getInstance(this)?.saveData("name", name)
-                Log.d(TAG, "saveData: $name")
+                snackBar(binding.root, "Data Saved Successfully ✔")
             } else {
                 snackBar(binding.root, "\uD83D\uDEAB Please enter name \uD83D\uDEAB")
             }
@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
             val name = MyPreference.getInstance(this)?.getData("name")
             if (name!!.isNotEmpty()) {
                 binding.nameEdt.setText(name)
-                Log.d(TAG, "getData: $name")
             } else {
                 snackBar(binding.root, "No data saved")
             }
