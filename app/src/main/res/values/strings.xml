@@ -3,4 +3,11 @@
     <string name="enter_your_name">Enter your name</string>
     <string name="load_name">Get Name</string>
     <string name="save_name">Save Name</string>
+    <string name="pref_activity">Pref Activity</string>
+    <string name="general_options">General Options</string>
+    <string name="silent_mode">Silent Mode</string>
+    <string name="awesome_mode">Awesome Mode</string>
+    <string name="checkbox_checked">Checked</string>
+    <string name="checkbox_unchecked">Check Box UnChecked</string>
+
 </resources>

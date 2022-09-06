@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbar">#273845</color>
+    <color name="main_bg">#273845</color>
+    <color name="edt_bg">#FFFFFF</color>
+
+</resources>

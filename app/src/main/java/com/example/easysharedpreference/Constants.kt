@@ -6,4 +6,7 @@ object Constants {
     const val ENTER_NAME = "Please enter name"
     const val NO_DATA_FOUND = "No data saved"
     const val PREF_NAME = "name"
+    const val CHECKBOX = "checkbox_save"
+    const val SWITCH = "switch_save"
+
 }
